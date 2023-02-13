@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web","Lucida Grande","Lucida Sans",Verdana,sans-serif
+}
+
+@font-face {
+    font-family: "Titillium Web";
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.logo {
+    color: #4db1cb;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height:38px;
+    padding-left: -15px;
+}
+
+.logo p {
+    margin: 10px;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 500px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500px;
+    text-transform: uppercase;
+    line-height: 20px;
+    padding: 0px 15px 3px 15px;
+}
+
+a.main {
+    color: #ed595c;
+    font-weight: bold;
+    border-bottom: solid;
+    border-color: #ed595c;
+    border-width: 4px;
+}
+
+li a:hover {
+    color: #ed595c;
+    font-weight: bold;
+    border-bottom: solid;
+    border-color: #ed595c;
+    border-width: 4px;
+}
+
+.btn img {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+.btn p {
+    display: none;
+}
+
+.btn:hover p {
+    display: block;
+    color: #ed595c;
+}
+
+.btn:hover img {
+    display: none;
+}
