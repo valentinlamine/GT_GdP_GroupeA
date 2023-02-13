@@ -1,1 +1,34 @@
 /*Hello world*/
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0f3c5d;
+    height: 40px;
+}
+
+footer .logo {
+    display: flex;
+    align-items: center;
+}
+
+footer .logo img {
+    height: 27px;
+}
+
+footer .logo p {
+    margin: 10px;
+    line-height: 22px;
+    font-size: 10px;
+    color: #fff;
+}
+
+footer .links {
+    display: flex;
+    align-items: center;
+}
+
+footer .links .social {
+    display: flex;
+    align-items: center;
+}
