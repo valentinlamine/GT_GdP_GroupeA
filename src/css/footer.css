@@ -1,4 +1,9 @@
-/*Hello world*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web","Lucida Grande","Lucida Sans",Verdana,sans-serif
+}
 
 footer {
     display: flex;
@@ -26,9 +31,31 @@ footer .logo p {
 footer .links {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+footer .links a {
+    padding-left: 10px;
+    margin: 10px;
+    line-height: 22px;
+    font-size: 10px;
+    color: #fff;
 }
 
 footer .links .social {
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+footer .links .social a {
+    margin: 0px 4px;
+    padding: 0px;
+    height: 22px;
+    width: 22px;
+}
+
+footer .links .social a img {
+    height: 100%;
+    width: 100%;
 }

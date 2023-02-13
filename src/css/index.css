@@ -1,2 +1,65 @@
-/* Hello world */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web","Lucida Grande","Lucida Sans",Verdana,sans-serif
+}
+
+@font-face {
+    font-family: "bebas_neue";
+    src: url(../assets/fonts/bebas_neue/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Titillium Web Light";
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-ExtraLight.ttf);
+}
+
+content {
+    width: 100%;   
+}
+
+content .landing_page {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../assets/images/banner-1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+content .landing_page img {
+    width: 400px;
+    height: 100px;
+}
+
+h1 {
+    font-family: "bebas_neue";
+    font-size: 88px;
+    color: #fff;
+    letter-spacing: 3px;
+    text-align: center;
+    font-weight: lighter;
+    margin: 20px 0px 10px 0px;
+}
+
+h2 {
+    font-family: "Titillium Web Light";
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    font-weight: lighter;
+    margin: 20px 0px 10px 0px;
+}
+
+content .landing_page .btn button {
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0px 5px;
+}
 
