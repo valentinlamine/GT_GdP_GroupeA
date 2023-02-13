@@ -1,13 +1,7 @@
-.forme_container {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-}
-
 .forme_1 {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 100vw;
 }
 
 .partie_gauche {
