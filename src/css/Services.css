@@ -8,6 +8,12 @@
     src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Light.ttf);
 }
 
+
+@font-face {
+    font-family: "bebas_neue";
+    src: url(../assets/fonts/bebas_neue/BebasNeue-Regular.ttf);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,7 +23,6 @@
 body{
     display: flex;
     flex-direction: column;
-    width: 100vw;
     height: 100vh;
 }
 
