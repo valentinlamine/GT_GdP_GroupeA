@@ -1,44 +1,66 @@
+@font-face {
+    font-family: "Titillium Web ExtraLight";
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-ExtraLight.ttf);
+}
+
+@font-face{
+    font-family: "Titillium web Light";
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Light.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .Liste1 {
-    position:relative;
-    left: 800px;
-    top: 200px;
+
     width: 450px;
     height: 250px;
 }
 
 .Liste2{
-    position:relative;
-    left: 800px;
-    top:200px;
+
     width: 450px;
     height: 250px;
 }
 
 .BD {
-    position :relative;
-    left: -50px;
-    top: 55px;
+    display: flex;
+    flex-direction: row;
 }
 
 .CD {
-    position :relative;
-    left: -50px;
-    top: 55px;
+    display: flex;
+    flex-direction:row;
 }
 
 hr {
-    background-color:cornflowerblue;
+    background-color:#4db1cb;
     height: 1px;
     border: 50px;
 }
 
 h1{
-    font-family: Titillium Web;
+    font-family:"Titillium Web ExtraLight";
     font-size: 35px;
     font-weight: normal;
 }
 
-body{
-    width: 100vw;
-    height: 100vh;
+ul{
+    font-family: "Titillium Web Light";
 }
