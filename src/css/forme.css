@@ -1,7 +1,13 @@
-.forme_container {
+.index {
     width: 100%;
     position: absolute;
     bottom: 0;
+}
+
+.forme_container {
+    width: 100%;
+    position: absolute;
+    top: 360px;
 }
 
 .forme_1 {

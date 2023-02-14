@@ -3,6 +3,11 @@
     src: url(../assets/fonts/Titillium_Web/TitilliumWeb-ExtraLight.ttf);
 }
 
+@font-face {
+    font-family: "bebas_neue";
+    src: url(../assets/fonts/bebas_neue/BebasNeue-Regular.ttf);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,6 +20,28 @@ body{
     height: 100vh;
 }
 
+content .landing_page {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../assets/images/banner-1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+content .landing_page h1 {
+    font-family: "bebas_neue";
+    font-size: 90px;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 70px;
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+}
 
 .Présentation{
     display: flex;
@@ -28,6 +55,9 @@ body{
     font-family: "Titillium Web Light";
     font-weight: 400;
     color: #000;
+}
+
+.Présentation h1.title {
     margin-bottom: 30px;
 }
 
@@ -111,10 +141,10 @@ hr {
 }
 
 .gen{
-    margin-top: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 200px;
 }
 
 

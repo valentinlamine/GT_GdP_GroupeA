@@ -1,0 +1,177 @@
+html{margin: 0;
+   }
+@font-face {
+    font-family: "Titillium Web Light";
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-ExtraLight.ttf);
+}
+
+header{
+width: 100%;
+background-color:blue;
+}
+footer{
+    padding: 5%;
+    background-color: red;
+}
+section.section1{
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.section1>p{
+    margin-bottom: 4%;
+}
+
+ul.filtre{
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    padding: 0 20%;
+}
+
+.filtre>a{
+    text-decoration: none;
+    color: #b3b3b3;
+}
+.liens:hover{
+    color: black;
+}
+.liens:selected{
+    color: white;
+    background-color: #f78da7;
+}
+
+section.galerie{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   padding-top:1%;
+}
+
+
+
+.col1,.col2,.col3,.col4,.col5{
+    display: flex;
+    flex-direction: column;
+}
+
+/* section.galerie>ul.col1,ul.col2,.col3,.col4,.col5{
+   background-color: blue;
+} */
+
+/* .img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+    position: relative;
+} */
+
+.img{
+    width: 20%;
+    margin-bottom:5%;
+}
+
+
+.img1{
+    background-image:url(img1.png); 
+}.img2{
+    background:url(img2.jpg) ;
+}.img3{ 
+    background:url(img3.jpg) ;
+}.img4{
+    background:url(img4.jpg) ;
+}.img5{
+    background:url(img5.jpg) ;
+}.img6{
+    background:url(img6.jpg) ;
+}.img7{
+    background:url(img7.jpg) ;
+}.img8{
+    background:url(img8.jpg) ;
+}.img9{
+    background:url(img9.jpg) ;
+}.img10{
+    background:url(img10.jpg) ;
+}.img11{
+    background:url(img11.jpg) ;
+}.img12{
+    background:url(img12.jpg) ;
+}.img13{
+    background:url(img13.jpg) ;
+}.img14{
+    background:url(img14.jpg) ;
+}.img15{
+    background:url(img15.jpg) ;
+}.img16{
+    background:url(img16.jpg) ;
+}.img17{
+    background:url(img17.jpg) ;
+}.img18{
+    background:url(img18.jpg) ;  
+}.img19{
+    background:url(img19.png);
+}.img20{
+    background:url(img20.jpg) ;
+}.img21{
+    background:url(img21.jpg) ;
+}.img22{
+    background:url(img22.jpg) ;
+}.img23{
+    background:url(img23.jpg) ;
+}.img24{
+    background:url(img24.jpg) ;
+}.img25{
+    background:url(img25.jpg) ;
+}.img26{
+    background:url(img26.jpg) ;
+}.img27{
+    background:url(img27.jpg) ;
+}.img28{
+    background:url(img28.jpg) ;
+}.img29{
+    background:url(img29.jpg) ;
+}.img30{
+    background:url(img30.jpg) ;
+}
+
+
+/*
+.parent:hover>enfant{}
+pour le hover sur les boutons
+*/
+
+
+.interne{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* .img1{
+    position: relative;
+    
+} */
+
+.interne{
+    padding: 30%;
+    width: 10px;
+    height: 20px; 
+     display: none;
+}
+
+.img:hover>.interne{
+position: absolute;
+left: 0;
+top: 0;
+display: block;
+background-color: rgba(0,0,0,0.5);
+width: auto;
+}
