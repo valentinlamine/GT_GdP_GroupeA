@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Titillium Web Light";
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-ExtraLight.ttf);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,12 +12,11 @@
 body{
     display: flex;
     flex-direction: column;
-    width: 100vw;
     height: 100vh;
 }
 
 .Description{
-    color:cornflowerblue;
+    color:#4DB1CB;
     font-size: 13px;
 }
 
@@ -25,7 +29,8 @@ body{
 
 .Présentation h1 {
     font-size: 55px;
-    font-weight: normal;
+    font-family: "Titillium Web Light";
+    font-weight: 400;
 }
 
 .PhotoDebbies{
@@ -48,11 +53,13 @@ body{
 
 .Debbie h2 {
     font-size: 24px;
-    font-weight: normal;
+    font-family: "Titillium Web Light";
+    font-weight: 400;
 }
 
 .Coordonnées{
     font-size: 13px;
+    color: #666666;
 }
 
 .Description{
@@ -61,9 +68,11 @@ body{
 
 h1.Company{
     font-size: 55px;
-    font-weight: normal;
     margin-bottom: 10px;
+    font-family: "Titillium Web Light";
+    font-weight: 400;
 }
+
 
 .Descriptif p{
     font-size: 14px;
@@ -93,7 +102,7 @@ li{
 
 
 hr {
-    background-color:red;
+    background-color:#f0565b;
     height: 1px;
     border: 50px;
 }
