@@ -1,0 +1,104 @@
+html{margin: 0;
+   }
+@font-face {
+    font-family: "Titillium Web Light";
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-ExtraLight.ttf);
+}
+
+header{
+width: 100%;
+background-color:blue;
+}
+footer{
+    padding: 5%;
+    background-color: red;
+}
+section.section1{
+    justify-content: center;
+    text-align: center;
+}
+
+.section1>p{
+    margin-bottom: 4%;
+}
+
+ul.filtre{
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    padding: 0 20%;
+}
+
+.filtre>a{
+    text-decoration: none;
+    color: #b3b3b3;
+}
+.liens:hover{
+    color: black;
+}
+.liens:selected{
+    color: white;
+    background-color: #f78da7;
+}
+
+section.galerie{
+    display: flex;
+    /* align-items: center; */
+   /* justify-content: center; */
+   padding-top:1%;
+}
+
+.col1,.col2,.col3,.col4,.col5{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.img {
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+
+
+/*
+.parent:hover>enfant{}
+pour le hover sur les boutons
+*/
+
+
+.interne{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* .img1{
+    position: relative;
+    
+} */
+
+.interne{
+    padding: 30%;
+    width: 10px;
+    height: 20px; 
+     display: none;
+}
+
+.img:hover>.interne{
+position: absolute;
+left: 0;
+top: 0;
+display: block;
+background-color: rgba(0,0,0,0.5);
+width: auto;
+}
+
+.cadre{
+    
+}
