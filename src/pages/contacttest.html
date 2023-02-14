@@ -9,96 +9,54 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/contact.css">
 </head>
 <!-- Header -->
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="../assets/images/logoHeader.svg" alt="Slipstream Creative Logo" onclick="window.location.href='index.html'" style="cursor: pointer;">
-            <p>Design Studio</p>
+  <header>
+    <div class="logo">
+        <img src="../assets/images/logoHeader.svg" alt="Slipstream Creative Logo"
+            onclick="window.location.href='index.html'" style="cursor: pointer;">
+        <p>Design Studio</p>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a class="main" href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="btn">
+            <img src="../assets/images/email.svg" alt="email Icon">
+            <p>sales@slipstreamcreative.co.nz</p>
         </div>
-        <div class="nav">
-            <ul>
-                <li><a class="main" href="index.html">Home</a></li>
-                <li><a href="pages/services.html">Services</a></li>
-                <li><a href="pages/about.html">About</a></li>
-                <li><a href="pages/portfolio.html">Portfolio</a></li>
-                <li><a href="pages/contact.html">Contact</a></li>
-            </ul>
-            <div class="btn">
-                <img src="../assets/images/email.svg" alt="email Icon">
-                <p>sales@slipstreamcreative.co.nz</p>
-            </div>
-            <div class="btn">
-                <img src="../assets/images/phone.svg" alt="phone Icon">
-                <p>+64 21 342 475</p>
-            </div>
+        <div class="btn">
+            <img src="../assets/images/phone.svg" alt="phone Icon">
+            <p>+64 21 342 475</p>
         </div>
-    </header>
+    </div>
+  </header>
+  <content>
     <content>
-  <div class="container" style="text-align:center;">
-      <div class="row">
-          <div class="col-md-6 col-md-push-3">
-                                                                  </div>
-        <div class="col-md-8 col-md-push-2">
-        <div class="fancyform">
-        <form id="fancy-form" method="POST" action="https://slipstreamcreative.nz/process" class="form" enctype="multipart/form-data">
-          <input type="hidden" id="form_nonce" name="form_nonce" value="bc666eae22" /><input type="hidden" name="_wp_http_referer" value="/creative-marketing-contact/" />          
-          <input type="hidden" class="form-control" name='form[start_time]' id="start_time" value="">
-          <section id="form-1" data-next="#form-2" class="section active">
-            <label class="form-label" for="name">What is your <b>full name</b>?</label>
-            <input type="text" class="form-control input" name='form[name]' maxlength="35" id="name" placeholder="Name" required>
-            <button tabindex="-1" class="continue btn btn-default invert">Next <small>Press Enter</small></button>
-          </section>
-          <section id="form-2" data-next="#form-3" data-prev="#form-1" class="section active-opacity">
-            <label class="form-label" for="email">What is your <b>email address</b><span class="form-name"></span>?</label>
-            <input type="email" class="form-control input" name='form[email_address]' id="email_address" placeholder="Email" required>
-            <button tabindex="-1" class="continue btn btn-default invert">Next <small>Press Enter</small></button>
-          </section>
-          <section id="form-3" data-next="#form-4" data-prev="#form-2" class="section">
-            <label class="form-label" for="subject">What <b>subject</b> is your email about?</label>
-            <input type="text" class="form-control input" name='form[subject]' id="subect" placeholder="Subject" required>
-            <button tabindex="-1" class="continue btn btn-default invert">Next <small>Press Enter</small></button>
-          </section>
-          <section id="form-4" data-next="#form-final" data-prev="#form-3" class="section">
-            <label class="form-label" for="message">What is your <b>message</b>?</label>
-            <textarea class="form-control input" name='form[message]' placeholder="Message" placeholder="Message" style="height: 100px" required></textarea>
-            <input type="submit" class="contact-submit btn btn-default btn-lg input" style="margin-top: 20px;" value="Send">
-          </section>
-          <section id="form-final" data-prev="#form-4" class="form-final section"></section>
-        </form>
-        </div>
-        </div> 
-        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
-            /* global jQuery */
-            jQuery(document).ready(function($) {
-              $("#name").one("keypress", function () {
-                  var dt = new Date();
-                  $( "#start_time" ).val( dt.getTime() );
-              });
-            });
-          </script>   
-    </content>
-    <footer>
-        <div class="logo">
-            <img src="../assets/images/logoHeader.svg" alt="Slipstream Creative Logo">
-            <p>Design Studio</p>
-        </div>
-        <div class="links">
-            <a>T&Cs</a>
-            <a>|</a>
-            <a>Ph: +64 21 342 475</a>
-            <a>|</a>
-            <a>Em: sales@slipstreamcreative.co.nz</a>
-            <a>|</a>
-            <div class="social">
-                <a href="https://www.facebook.com/pages/Slipstream-Creative/133817269980241?fref=ts"><img src="../assets/images/facebook.svg" alt="Facebook Icon"></a>
-                <a href="https://twitter.com/slipstreamCre8v"><img src="../assets/images/twitter.svg" alt="Twitter Icon"></a>
-                <a href="https://www.pinterest.com/SlipstreamCre8v"><img src="../assets/images/pinterest.svg" alt="Pinterest Icon"></a>
-                <a href="https://www.linkedin.com/company/slipstream-creative-nz"><img src="../assets/images/linkedin.svg" alt="LinkedIn Icon"></a>
-            </div>
-        </div>
-    </footer>
+      <div class="contact_page">
+          <div class="text_cont">
+              <h1>LET’S TALK</h1>
+          </div>
+          <div class="forme_cont">
+              <div class="forme_1">
+                  <div class="partie_gauche"></div>
+                  <div class="partie_droite"></div>
+              </div>
+              <div class="rectangle">
+                  <div class="circle"></div>
+              </div>
+          </div>
+          <div class="chat">
+
+          </div>
+      </div>
+  </content>
     </body>
     </html>
