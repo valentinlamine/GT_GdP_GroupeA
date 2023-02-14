@@ -22,11 +22,20 @@ content {
 content .landing_page {
     display: flex;
     height: 100vh;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: url(../assets/images/banner-1.jpg) no-repeat center center fixed;
     background-size: cover;
+}
+
+content .landing_page .text_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
 }
 
 content .landing_page img {
@@ -41,7 +50,6 @@ h1 {
     letter-spacing: 3px;
     text-align: center;
     font-weight: lighter;
-    margin: 20px 0px 10px 0px;
 }
 
 h2 {
@@ -50,7 +58,7 @@ h2 {
     color: #fff;
     text-align: center;
     font-weight: lighter;
-    margin: 20px 0px 10px 0px;
+    margin-bottom: 5px;
 }
 
 content .landing_page .btn button {
@@ -61,5 +69,159 @@ content .landing_page .btn button {
     font-size: 18px;
     text-transform: uppercase;
     margin: 0px 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
+content .landing_page .btn button:hover {
+    background: #fff;
+    color: #000;
+}
+
+content .content_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+content .content_links .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+content .content_links .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+content .content_links .left p {
+    font-family: "Titillium Web Light";
+    font-size: 24px;
+    font-weight: 200;
+    color: #666;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: lighter;
+    margin-right: 20px;
+}
+
+content .content_links .right p {
+    font-family: "Titillium Web Light";
+    font-size: 24px;
+    font-weight: 200;
+    color: #666;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+
+content .content_links .left p span {
+    font-weight: bold;
+}
+
+content .content_links .right p span {
+    font-weight: bold;
+}
+
+content .content_links .left img {
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+content .content_links .right img {
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.gen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.txt {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.center_col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mar_t{
+    margin-top: 1%;
+}
+
+.btn-hwdi{
+    border: 1px #4db1cb solid;
+    padding: 10px;
+    background-color:white;
+    color: #4db1cb;
+}
+
+.btn-hwdi:hover{
+   background-color:#4db1cb ;
+    color: white;
+}
+
+.box1 {
+    width: 100%;
+    height: 100vh;
+    clip-path: polygon(100.00% 80.00%,50.00% 90.00%,0.00% 80.00%,0.00% 20.00%,49.48% 30.00%,100.00% 20.00%);
+    overflow: hidden;
+    margin-top: -200px;
+  }
+  .box2 {
+    width: 100%;
+    height: 100vh;
+    clip-path: polygon(100.00% 80.00%,50.00% 90.00%,0.00% 80.00%,0.00% 20.00%,49.48% 30.00%,100.00% 20.00%);
+    overflow: hidden;
+    margin-top: -400px;
+  }
+  .img-parralax{
+    height: 100%;
+    background-image:linear-gradient(rgba(51,51,51,0.85),rgba(51,51,51,0.85)),url(../assets/images/banner-contact.jpg);
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+  }
+
+  .img-parralax2{
+    height: 100%;
+    background-image:linear-gradient(rgba(11,59,94,0.85),rgba(11,59,94,0.85)),url(../assets/images/brand-banner-square.jpg);
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+  }
+
+  .boxe{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .texte{
+    color: red;
+    z-index: 40;
+  }

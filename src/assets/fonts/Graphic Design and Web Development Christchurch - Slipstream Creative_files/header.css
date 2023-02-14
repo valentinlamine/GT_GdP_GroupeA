@@ -11,7 +11,7 @@
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.9);
     height: 55px;
     display: flex;
     position: fixed;
