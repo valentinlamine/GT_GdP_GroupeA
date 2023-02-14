@@ -4,15 +4,11 @@ html{margin: 0;
     font-family: "Titillium Web Light";
     src: url(../assets/fonts/Titillium_Web/TitilliumWeb-ExtraLight.ttf);
 }
+@font-face {
+    font-family: "bebas_neue";
+    src: url(../assets/fonts/bebas_neue/BebasNeue-Regular.ttf);
+}
 
-header{
-width: 100%;
-background-color:blue;
-}
-footer{
-    padding: 5%;
-    background-color: red;
-}
 section.section1{
     justify-content: center;
     text-align: center;
@@ -91,8 +87,4 @@ top: 0;
 display: block;
 background-color: rgba(0,0,0,0.5);
 width: auto;
-}
-
-.cadre{
-    
 }
