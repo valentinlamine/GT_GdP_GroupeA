@@ -33,15 +33,12 @@ body{
 }
 
 .Liste1 {
-
-    width: 450px;
-    height: 250px;
+    width: 50%;
 }
 
 .Liste2{
-
-    width: 450px;
-    height: 250px;
+    width: 50%;
+    margin-bottom: 50px;
 }
 
 .BD {
