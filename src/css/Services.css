@@ -1,0 +1,44 @@
+.Liste1 {
+    position:relative;
+    left: 800px;
+    top: 200px;
+    width: 450px;
+    height: 250px;
+}
+
+.Liste2{
+    position:relative;
+    left: 800px;
+    top:200px;
+    width: 450px;
+    height: 250px;
+}
+
+.BD {
+    position :relative;
+    left: -50px;
+    top: 55px;
+}
+
+.CD {
+    position :relative;
+    left: -50px;
+    top: 55px;
+}
+
+hr {
+    background-color:cornflowerblue;
+    height: 1px;
+    border: 50px;
+}
+
+h1{
+    font-family: Titillium Web;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
