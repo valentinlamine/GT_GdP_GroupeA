@@ -95,3 +95,27 @@ header .nav .btn:hover p {
 header .nav .btn:hover img {
     display: none;
 }
+
+
+content .landing_page {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../assets/images/banner-1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+content .landing_page h1 {
+    font-family: "bebas_neue";
+    font-size: 90px;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 70px;
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+}

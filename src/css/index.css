@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Titillium Web","Lucida Grande","Lucida Sans",Verdana,sans-serif
+    font-family: "Titillium Web", "Lucida Grande", "Lucida Sans", Verdana, sans-serif
 }
 
 @font-face {
@@ -16,7 +16,7 @@
 }
 
 content {
-    width: 100%;   
+    width: 100%;
 }
 
 content .landing_page {
@@ -139,32 +139,39 @@ content .content_links .right img {
 
 
 
-body{
+body {
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
-.gen{
+.gen {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 10%;
 }
 
-.center_col{
+.center_col {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-h1.mar_t{
+h1.mar_t {
     margin-top: 150px;
     font-size: 55px;
     color: #000;
+    font-family: "Titillium Web Light";
+    font-weight: lighter;
+}
+
+.h_box{
+    font-size: 55px;
+    color: white;
     font-family: "Titillium Web Light";
     font-weight: lighter;
 }
@@ -179,58 +186,78 @@ h1.mar_t{
 }
 
 
-.btn-hwdi{
+.btn-hwdi {
     border: 1px #4db1cb solid;
     padding: 5px 20px;
-    background-color:white;
+    background-color: white;
     color: #4db1cb;
     font-size: 18px;
 }
 
-.btn-hwdi:hover{
-   background-color:#4db1cb ;
+.btn-hwdi:hover {
+    background-color: #4db1cb;
     color: white;
 }
 
-.box1{
+.box1 {
     width: 100%;
     height: 100vh;
-    clip-path: polygon(100.00% 80.00%,50.00% 90.00%,0.00% 80.00%,0.00% 20.00%,49.48% 30.00%,100.00% 20.00%);
+    clip-path: polygon(100.00% 80.00%, 50.00% 90.00%, 0.00% 80.00%, 0.00% 20.00%, 49.48% 30.00%, 100.00% 20.00%);
     overflow: hidden;
     margin-top: -200px;
-  }
+}
+
 .box2 {
-width: 100%;
-height: 100vh;
-clip-path: polygon(100.00% 80.00%,50.00% 90.00%,0.00% 80.00%,0.00% 20.00%,49.48% 30.00%,100.00% 20.00%);
-overflow: hidden;
-margin-top: -400px;
-}
-.img-parralax{
-height: 100%;
-background-image:linear-gradient(rgba(51,51,51,0.85),rgba(51,51,51,0.85)),url(../assets/images/banner-contact.jpg);
-background-attachment: fixed; 
-background-size: cover; 
-background-position: center; 
-background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    clip-path: polygon(100.00% 80.00%, 50.00% 90.00%, 0.00% 80.00%, 0.00% 20.00%, 49.48% 30.00%, 100.00% 20.00%);
+    overflow: hidden;
+    margin-top: -400px;
 }
 
-.img-parralax2{
-height: 100%;
-background-image:linear-gradient(rgba(11,59,94,0.85),rgba(11,59,94,0.85)),url(../assets/images/brand-banner-square.jpg);
-background-attachment: fixed; 
-background-size: cover; 
-background-position: center; 
-background-repeat: no-repeat;
+.img-parralax {
+    height: 100%;
+    background-image: linear-gradient(rgba(51, 51, 51, 0.85), rgba(51, 51, 51, 0.85)), url(../assets/images/banner-contact.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 
-.boxe{
-width: 100%;
-display: flex;
-flex-direction: column;
+.img-parralax2 {
+    height: 100%;
+    background-image: linear-gradient(rgba(11, 59, 94, 0.85), rgba(11, 59, 94, 0.85)), url(../assets/images/brand-banner-square.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.texte{
-color: red;
-z-index: 40;
+.boxe {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.texte {
+    color: white;
+}
+
+.btn_box{
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    margin-top:20px ;
 }
