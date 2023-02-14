@@ -46,8 +46,6 @@ ul.filtre{
 
 section.galerie{
     display: flex;
-    /* align-items: center; */
-   /* justify-content: center; */
    padding-top:1%;
 }
 
@@ -78,10 +76,6 @@ pour le hover sur les boutons
     justify-content: space-between;
 }
 
-/* .img1{
-    position: relative;
-    
-} */
 
 .interne{
     padding: 30%;
