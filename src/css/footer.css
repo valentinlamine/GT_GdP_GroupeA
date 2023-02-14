@@ -88,13 +88,17 @@ p.BasPage{
 }
 
 .ContactButton{
-    border-color: #f0565b;
-    padding-left:10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    border: 1px solid #f0565b;
+    padding: 5px 20px;
     color: #f0565b;
     font-size: 18px;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.ContactButton:hover{
+    background: #f0565b;
+    color: #fff;
 }
 
 .BanderoleBas{
