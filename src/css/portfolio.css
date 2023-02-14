@@ -42,12 +42,15 @@ ul.filtre{
 
 section.galerie{
     display: flex;
+    width: 100%;
+    padding: 2%;
    padding-top:1%;
 }
 
 .col1,.col2,.col3,.col4,.col5{
     display: flex;
     flex-direction: column;
+    padding: 1%;
 }
 
 
