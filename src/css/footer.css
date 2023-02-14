@@ -68,17 +68,33 @@ footer .links .social a img {
 .contacte{
     background: #f4f4f4;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:35px;
 }
 
 .BasPage{
     color: #f0565b;
     font-size: 35px;
+    display: flex;
+    justify-content: center;
 }
 
 p.BasPage{
     color: #f0565b;
     font-size: 16px;
     
+}
+
+.ContactButton{
+    border-color: #f0565b;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #f0565b;
+    font-size: 18px;
 }
 
 .BanderoleBas{
@@ -92,4 +108,9 @@ p.BasPage{
 .Quote{
     margin-left: 50px;
     margin-right: 50px;
+}
+
+.TexteBas{
+    margin: 20px;
+    text-align: center;
 }

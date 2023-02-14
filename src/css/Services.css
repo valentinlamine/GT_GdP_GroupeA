@@ -103,31 +103,3 @@ ul{
     margin-left: 50px;
 }
 
-.contacte{
-    background: #f4f4f4;
-    width: 100%;
-}
-
-.BasPage{
-    color: #f0565b;
-    font-size: 35px;
-}
-
-p.BasPage{
-    color: #f0565b;
-    font-size: 16px;
-    
-}
-
-.BanderoleBas{
-    background: #f0565b;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.Quote{
-    margin-left: 50px;
-    margin-right: 50px;
-}
