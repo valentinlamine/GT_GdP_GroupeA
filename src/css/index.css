@@ -69,5 +69,71 @@ content .landing_page .btn button {
     font-size: 18px;
     text-transform: uppercase;
     margin: 0px 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+content .landing_page .btn button:hover {
+    background: #fff;
+    color: #000;
+}
+
+content .content_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+content .content_links .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+content .content_links .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+content .content_links .left p {
+    font-family: "Titillium Web Light";
+    font-size: 24px;
+    font-weight: 200;
+    color: #666;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: lighter;
+    margin-right: 20px;
+}
+
+content .content_links .right p {
+    font-family: "Titillium Web Light";
+    font-size: 24px;
+    font-weight: 200;
+    color: #666;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+
+content .content_links .left p span {
+    font-weight: bold;
+}
+
+content .content_links .right p span {
+    font-weight: bold;
+}
+
+content .content_links .left img {
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+content .content_links .right img {
+    margin-left: 25px;
+    cursor: pointer;
 }
 
