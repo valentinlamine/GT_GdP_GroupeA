@@ -44,6 +44,15 @@ body{
     flex-direction: row;
 }
 
+.Fiole{
+    margin:10px;
+}
+
+.Diamant{
+    margin:10px
+
+}
+
 .CD {
     display: flex;
     flex-direction:row;
@@ -53,6 +62,7 @@ hr {
     background-color:#4db1cb;
     height: 1px;
     border: 50px;
+    margin: 20px;
 }
 
 h1{
@@ -63,4 +73,6 @@ h1{
 
 ul{
     font-family: "Titillium Web Light";
+    margin: 10px;
+    margin-left: 50px;
 }
