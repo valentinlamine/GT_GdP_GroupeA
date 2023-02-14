@@ -6,17 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services</title>
     <link rel="stylesheet" href="../css/Services.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/index.css">
 
 
 </head>
 <body>
-    <div class="parent">
+    <header>
+        <div class="logo">
+            <img src="../assets/images/logoHeader.svg" alt="Slipstream Creative Logo"
+                onclick="window.location.href='index.html'" style="cursor: pointer;">
+            <p>Design Studio</p>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a class="main" href="index.html">Home</a></li>
+                <li><a href="./Services.html">Services</a></li>
+                <li><a href="./About.html">About</a></li>
+                <li><a href="./portfolio.html">Portfolio</a></li>
+                <li><a href="./Contact.html">Contact</a></li>
+            </ul>
+            <div class="btn">
+                <img src="../assets/images/email.svg" alt="email Icon">
+                <p>sales@slipstreamcreative.co.nz</p>
+            </div>
+            <div class="btn">
+                <img src="../assets/images/phone.svg" alt="phone Icon">
+                <p>+64 21 342 475</p>
+            </div>
+        </div>
+    </header>
+    <content>
+        <div class="landing_page">
+            <div class="text_container">
+                <img src="../assets/images/slipstreamlogo.svg" alt="Slipstream Creative Logo">
+                <h1>Fluid graphic design</h1>
+                <h2>Sound design concepts allow visuals to flow smoothly into any media.</h2>
+                <div class="btn">
+                    <button onclick="window.location.href='./portfolio.html'">Our portfolio</button>
+                    <button onclick="window.location.href=''">How we do it</button>
+                </div>
+            </div>
+            <div class="forme_container">
+                <div class="forme_1">
+                    <div class="partie_gauche"></div>
+                    <div class="partie_droite"></div>
+                </div>
+                <div class="rectangle">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </content>
 
+    <div class="parent">
 
         <div class="Liste1">
             <div class="CD">
                 <img class="Diamant" src="../assets/images/GD.png" alt="">
-            <h1>CREATIVE DESIGN</h1>
+            <h1 class="CD">CREATIVE DESIGN</h1>
             </div>
             <ul>
                 <li>
@@ -43,7 +92,7 @@
         <div class="Liste2">
             <div class="BD">
                 <img class="Fiole" src="../assets/images/BD.png" alt="">
-            <h1>BRAND DEVELOPMENT</h1>
+            <h1 class="BD">BRAND DEVELOPMENT</h1>
             </div>
             <ul>
                 <li>
@@ -67,7 +116,30 @@
             </ul>
         </div>
     </div>
-
+    <footer>
+        <div class="logo">
+            <img src="../assets/images/logoHeader.svg" alt="Slipstream Creative Logo">
+            <p>Design Studio</p>
+        </div>
+        <div class="links">
+            <a>T&Cs</a>
+            <a>|</a>
+            <a>Ph: +64 21 342 475</a>
+            <a>|</a>
+            <a>Em: sales@slipstreamcreative.co.nz</a>
+            <a>|</a>
+            <div class="social">
+                <a href="https://www.facebook.com/pages/Slipstream-Creative/133817269980241?fref=ts"><img
+                        src="../assets/images/facebook.svg" alt="Facebook Icon"></a>
+                <a href="https://twitter.com/slipstreamCre8v"><img src="../assets/images/twitter.svg"
+                        alt="Twitter Icon"></a>
+                <a href="https://www.pinterest.com/SlipstreamCre8v"><img src="../assets/images/pinterest.svg"
+                        alt="Pinterest Icon"></a>
+                <a href="https://www.linkedin.com/company/slipstream-creative-nz"><img src="../assets/images/linkedin.svg"
+                        alt="LinkedIn Icon"></a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
