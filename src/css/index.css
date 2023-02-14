@@ -137,3 +137,91 @@ content .content_links .right img {
     cursor: pointer;
 }
 
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.gen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.txt {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.center_col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mar_t{
+    margin-top: 1%;
+}
+
+.btn-hwdi{
+    border: 1px #4db1cb solid;
+    padding: 10px;
+    background-color:white;
+    color: #4db1cb;
+}
+
+.btn-hwdi:hover{
+   background-color:#4db1cb ;
+    color: white;
+}
+
+.box1 {
+    width: 100%;
+    height: 100vh;
+    clip-path: polygon(100.00% 80.00%,50.00% 90.00%,0.00% 80.00%,0.00% 20.00%,49.48% 30.00%,100.00% 20.00%);
+    overflow: hidden;
+    margin-top: -200px;
+  }
+  .box2 {
+    width: 100%;
+    height: 100vh;
+    clip-path: polygon(100.00% 80.00%,50.00% 90.00%,0.00% 80.00%,0.00% 20.00%,49.48% 30.00%,100.00% 20.00%);
+    overflow: hidden;
+    margin-top: -400px;
+  }
+  .img-parralax{
+    height: 100%;
+    background-image:linear-gradient(rgba(51,51,51,0.85),rgba(51,51,51,0.85)),url(../assets/images/banner-contact.jpg);
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+  }
+
+  .img-parralax2{
+    height: 100%;
+    background-image:linear-gradient(rgba(11,59,94,0.85),rgba(11,59,94,0.85)),url(../assets/images/brand-banner-square.jpg);
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+  }
+
+  .boxe{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .texte{
+    color: red;
+    z-index: 40;
+  }
