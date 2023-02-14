@@ -143,7 +143,7 @@
 
 #zone-texte {
     width: 50%;
-    display: none;
+    display: block;
     font-size: 18px;
 }
 
@@ -155,18 +155,18 @@
 
 #zone-texte2 {
     width: 50%;
-    display: none;
+    display: block;
     font-size: 18px;
 }
 
 #zone-texte3 {
     width: 50%;
-    display: none;
+    display: block;
     font-size: 18px;
 }
 
 #zone-texte4 {
     width: 50%;
-    display: none;
+    display: block;
     font-size: 18px;
 }
